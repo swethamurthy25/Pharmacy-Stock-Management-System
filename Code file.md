@@ -240,6 +240,21 @@ VALUES (1,'India', 'Swetha','10','swe@gmail.com','1993-03-21',123,'Tamilnadu','1
 
 ![image](https://github.com/swethamurthy25/Pharmacy-Stock-Management-System/assets/112581595/8513b946-b7d5-4a23-8530-8bc74af5a52d)
 
+![image](https://github.com/swethamurthy25/Pharmacy-Stock-Management-System/assets/112581595/7615d933-ea2f-4e53-9095-f07620f90e32)
+
+### Stores Table:
+
+```sql
+SET IDENTITY_INSERT [ORMModel1].[Stores] ON
+INSERT INTO [ORMModel1].[Stores](
+storesId,store_Name , address,cityName,contactNumberInt,countryName ,stateCode ,zipcodeCode)
+VALUES (101,'store1','1717 south doresy lane','tempe',234567899,'UnitedStates','AZ',85281),
+	   (102,'store2','100 new street','dallas',234567899,'UnitedStates','DL',89965),
+	   (103,'store3','1718 north doresy lane','houston',234567899,'UnitedStates','HU',87651),
+	   (104,'store4','1710 apache blvd','california',234567899,'UnitedStates','CA',77654),
+       (105,'store5','1700 west drive','florida',234567899,'UnitedStates','FL',90876);
+
+```
 
 
 
